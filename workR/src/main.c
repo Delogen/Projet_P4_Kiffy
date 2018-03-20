@@ -38,15 +38,15 @@ int main(int argc, char const *argv[])
     MbsPart *mbs_part;
     MbsDirdyn *mbs_dirdyn;
 
-    printf("Starting Livrable2_gr06 MBS project!\n");
+    printf("Starting KIFFY06 MBS project!\n");
 
 
     /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
     /*                     LOADING                               *
     /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
     
-    printf("Loading the Livrable2_gr06 data file !\n");
-    mbs_data = mbs_load(PROJECT_SOURCE_DIR"/../dataR/Livrable2_gr06.mbs", BUILD_PATH);
+    printf("Loading the KIFFY06 data file !\n");
+    mbs_data = mbs_load(PROJECT_SOURCE_DIR"/../dataR/KIFFY06.mbs", BUILD_PATH);
     printf("*.mbs file loaded!\n");
     
 
@@ -70,7 +70,7 @@ int main(int argc, char const *argv[])
 
     // dirdyn options (see documentations for additional options)
     mbs_dirdyn->options->dt0 = 1e-3;
-    mbs_dirdyn->options->tf  = 10.0;
+    mbs_dirdyn->options->tf  = 5.0;
     mbs_dirdyn->options->save2file = 1;
     //mbs_dirdyn->options->realtime = 1;
     
