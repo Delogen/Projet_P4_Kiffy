@@ -1190,7 +1190,7 @@
           </x3D>
         </graphics>
       </joint>
-      <mass>1.0</mass>
+      <mass>10.0</mass>
       <inertia>
         <Ixx>0.03</Ixx>
         <Iyy>0.03</Iyy>
