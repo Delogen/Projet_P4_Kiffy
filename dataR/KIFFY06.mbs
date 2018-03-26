@@ -15,13 +15,13 @@
     <graphics>
       <x2D>
         <position>
-          <x>829.0</x>
-          <y>825.0</y>
+          <x>831.0</x>
+          <y>815.0</y>
         </position>
         <base_body>
           <position>
-            <x>-691.0</x>
-            <y>-80.0</y>
+            <x>-683.0</x>
+            <y>-76.0</y>
           </position>
           <name_pos>
             <x>0.0</x>
@@ -34,20 +34,20 @@
           </size>
           <control_points>
             <control_point>
-              <x>686.0</x>
-              <y>-80.0</y>
+              <x>694.0</x>
+              <y>-76.0</y>
             </control_point>
             <control_point>
-              <x>686.0</x>
-              <y>73.0</y>
+              <x>694.0</x>
+              <y>77.0</y>
             </control_point>
             <control_point>
-              <x>-691.0</x>
-              <y>73.0</y>
+              <x>-683.0</x>
+              <y>77.0</y>
             </control_point>
             <control_point>
-              <x>-691.0</x>
-              <y>-80.0</y>
+              <x>-683.0</x>
+              <y>-76.0</y>
             </control_point>
           </control_points>
           <angle>0.0</angle>
@@ -206,7 +206,7 @@
         <coordinates>
           <x>0.0</x>
           <y>0.0</y>
-          <z>0.2</z>
+          <z>0.1</z>
         </coordinates>
       </com>
       <inertia>
@@ -224,8 +224,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>868.0</x>
-              <y>554.0</y>
+              <x>786.0</x>
+              <y>555.0</y>
             </position>
           </x2D>
           <x3D />
@@ -313,6 +313,28 @@
         <pointname>ANC_CHASSIS_GUIDON</pointname>
       </parent>
       <joint>
+        <jointname>R2_ANGLE_CHASSE</jointname>
+        <type>R2</type>
+        <nature>driven</nature>
+        <symbols>
+          <q />
+          <qd />
+          <qdd />
+        </symbols>
+        <graphics>
+          <x2D>
+            <position>
+              <x>843.0</x>
+              <y>466.0</y>
+            </position>
+          </x2D>
+          <x3D>
+            <x3D_joint />
+            <x3D_frame />
+          </x3D>
+        </graphics>
+      </joint>
+      <joint>
         <jointname>R3_CHASSIS_GUIDUON</jointname>
         <type>R3</type>
         <nature>dependent</nature>
@@ -352,8 +374,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>969.0</x>
-              <y>353.0</y>
+              <x>976.0</x>
+              <y>365.0</y>
             </position>
           </x2D>
           <x3D />
@@ -369,8 +391,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>969.0</x>
-              <y>530.0</y>
+              <x>976.0</x>
+              <y>542.0</y>
             </position>
           </x2D>
           <x3D />
@@ -386,8 +408,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>972.0</x>
-              <y>608.0</y>
+              <x>979.0</x>
+              <y>620.0</y>
             </position>
           </x2D>
           <x3D />
@@ -396,8 +418,8 @@
       <graphics>
         <x2D>
           <position>
-            <x>-29.0</x>
-            <y>-492.0</y>
+            <x>-22.0</x>
+            <y>-480.0</y>
           </position>
           <name_pos>
             <x>0.0</x>
@@ -410,20 +432,20 @@
           </size>
           <control_points>
             <control_point>
-              <x>29.0</x>
-              <y>-492.0</y>
+              <x>36.0</x>
+              <y>-480.0</y>
             </control_point>
             <control_point>
-              <x>29.0</x>
-              <y>51.0</y>
+              <x>36.0</x>
+              <y>63.0</y>
             </control_point>
             <control_point>
-              <x>-29.0</x>
-              <y>51.0</y>
+              <x>-22.0</x>
+              <y>63.0</y>
             </control_point>
             <control_point>
-              <x>-29.0</x>
-              <y>-492.0</y>
+              <x>-22.0</x>
+              <y>-480.0</y>
             </control_point>
           </control_points>
           <angle>0.0</angle>
@@ -462,7 +484,7 @@
       <com>
         <coordinates>
           <x>0.0</x>
-          <y>0.125</y>
+          <y>0.0625</y>
           <z>0.0</z>
         </coordinates>
       </com>
@@ -470,7 +492,7 @@
         <pointname>ANC_ESSIEU_SUP_FUSEE_G</pointname>
         <coordinates>
           <x>0.0</x>
-          <y>0.25</y>
+          <y>0.125</y>
           <z>0.0</z>
         </coordinates>
         <graphics>
@@ -522,6 +544,32 @@
           <x3D_com />
           <x3D_points />
           <x3D_lines />
+          <x3D_shapes>
+            <cylinder>
+              <name>New_Shape</name>
+              <position>
+                <x>0.0</x>
+                <y>-0.125</y>
+                <z>0.0</z>
+              </position>
+              <scale>
+                <x>1.0</x>
+                <y>1.0</y>
+                <z>1.0</z>
+              </scale>
+              <rotation>
+                <x>0.0</x>
+                <y>0.0</y>
+                <z>0.0</z>
+              </rotation>
+              <color R="0" G="0" B="0" />
+              <specularColor R="255" G="255" B="255" />
+              <shininess>250.0</shininess>
+              <transparency>0.0</transparency>
+              <radius>0.03</radius>
+              <height>0.25</height>
+            </cylinder>
+          </x3D_shapes>
         </x3D>
       </graphics>
     </body>
@@ -672,7 +720,7 @@
           <x2D>
             <position>
               <x>1073.0</x>
-              <y>544.0</y>
+              <y>545.0</y>
             </position>
           </x2D>
           <x3D>
@@ -684,7 +732,7 @@
       <mass>1.0</mass>
       <inertia>
         <Ixx>0.03</Ixx>
-        <Iyy>0.03</Iyy>
+        <Iyy>0.055</Iyy>
         <Izz>0.03</Izz>
       </inertia>
       <point>
@@ -791,7 +839,7 @@
       <com>
         <coordinates>
           <x>0.0</x>
-          <y>-0.125</y>
+          <y>-0.0625</y>
           <z>0.0</z>
         </coordinates>
       </com>
@@ -799,7 +847,7 @@
         <pointname>ANC_ESSIEU_SUP_FUSEE_D</pointname>
         <coordinates>
           <x>0.0</x>
-          <y>-0.25</y>
+          <y>-0.125</y>
           <z>0.0</z>
         </coordinates>
         <graphics>
@@ -851,6 +899,32 @@
           <x3D_com />
           <x3D_points />
           <x3D_lines />
+          <x3D_shapes>
+            <cylinder>
+              <name>New_Shape</name>
+              <position>
+                <x>0.0</x>
+                <y>0.125</y>
+                <z>0.0</z>
+              </position>
+              <scale>
+                <x>1.0</x>
+                <y>1.0</y>
+                <z>1.0</z>
+              </scale>
+              <rotation>
+                <x>0.0</x>
+                <y>0.0</y>
+                <z>0.0</z>
+              </rotation>
+              <color R="0" G="0" B="0" />
+              <specularColor R="255" G="255" B="255" />
+              <shininess>250.0</shininess>
+              <transparency>0.0</transparency>
+              <radius>0.03</radius>
+              <height>0.25</height>
+            </cylinder>
+          </x3D_shapes>
         </x3D>
       </graphics>
     </body>
@@ -912,7 +986,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1569.0</x>
+              <x>1567.0</x>
               <y>601.0</y>
             </position>
           </x2D>
@@ -987,7 +1061,7 @@
       <mass>1.0</mass>
       <inertia>
         <Ixx>0.03</Ixx>
-        <Iyy>0.03</Iyy>
+        <Iyy>0.055</Iyy>
         <Izz>0.03</Izz>
       </inertia>
       <point>
@@ -1095,7 +1169,7 @@
         <pointname>ANC_ESSIEU_INF_FUSEE_D</pointname>
         <coordinates>
           <x>0.0</x>
-          <y>-0.25</y>
+          <y>-0.125</y>
           <z>0.0</z>
         </coordinates>
         <graphics>
@@ -1112,7 +1186,7 @@
         <pointname>ANC_ESSIEU_INF_FUSEE_G</pointname>
         <coordinates>
           <x>0.0</x>
-          <y>0.25</y>
+          <y>0.125</y>
           <z>0.0</z>
         </coordinates>
         <graphics>
@@ -1164,6 +1238,32 @@
           <x3D_com />
           <x3D_points />
           <x3D_lines />
+          <x3D_shapes>
+            <cylinder>
+              <name>New_Shape</name>
+              <position>
+                <x>0.0</x>
+                <y>0.0</y>
+                <z>0.0</z>
+              </position>
+              <scale>
+                <x>1.0</x>
+                <y>1.0</y>
+                <z>1.0</z>
+              </scale>
+              <rotation>
+                <x>0.0</x>
+                <y>0.0</y>
+                <z>0.0</z>
+              </rotation>
+              <color R="0" G="0" B="0" />
+              <specularColor R="255" G="255" B="255" />
+              <shininess>250.0</shininess>
+              <transparency>0.0</transparency>
+              <radius>0.03</radius>
+              <height>0.5</height>
+            </cylinder>
+          </x3D_shapes>
         </x3D>
       </graphics>
     </body>
@@ -1193,7 +1293,7 @@
       <mass>1.0</mass>
       <inertia>
         <Ixx>0.03</Ixx>
-        <Iyy>0.03</Iyy>
+        <Iyy>0.055</Iyy>
         <Izz>0.03</Izz>
       </inertia>
       <point>
@@ -1309,6 +1409,33 @@
       <lightAndShadowMode>LIGHTS_NO_SPEC_SHADER</lightAndShadowMode>
       <glfwSample>4</glfwSample>
     </opengl>
+    <viewpoints>
+      <!--This is the viewpoint list-->
+      <viewpoint>
+        <name>New_Viewpoint</name>
+        <joint>T1_SOL_CHASSIS</joint>
+        <position>
+          <x>2.0</x>
+          <y>0.0</y>
+          <z>1.0</z>
+        </position>
+        <target>
+          <x>0.0</x>
+          <y>0.0</y>
+          <z>0.0</z>
+        </target>
+        <up>
+          <x>0.0</x>
+          <y>0.0</y>
+          <z>1.0</z>
+        </up>
+        <projection>perspective</projection>
+        <scale>1.0</scale>
+        <fieldOfView>0.785</fieldOfView>
+        <frontClipDst>0.01</frontClipDst>
+        <backClipDst>50.0</backClipDst>
+      </viewpoint>
+    </viewpoints>
     <lights>
       <!--This is the light list-->
       <directionalLight>
